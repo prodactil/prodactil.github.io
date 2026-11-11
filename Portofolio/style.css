@@ -339,7 +339,7 @@ span {
 }
 
 .text-animation span::before{
-    content: "Web Developer";
+    content: "Kubernetes DevOps Engineer";
     color: var(--main-color2);
     animation: words 20s infinite;
 }
@@ -362,23 +362,23 @@ span {
 @keyframes words {
     0%,
     20% {
-        content: "Frontend Designer";
+        content: "Dev Engineer";
     }
     21%,
     40% {
-        content: "Web Designer";
+        content: "Ops Engineer";
     }
     41%,
     60% {
-        content: "UI / UX Designer";
+        content: "Kubernetes Engineer";
     }
     61%,
     80% {
-        content: "Web Developer";
+        content: "DevOps Engineer";
     }
     81%,
     100% {
-        content: "Software Tester";
+        content: "Kubernetes DevOps Engineer";
     }
 }
 @keyframes typing {
